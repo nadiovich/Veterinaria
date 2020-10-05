@@ -74,10 +74,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="entidades\person.vb" />
-    <Compile Include="mascota.Designer.vb">
-      <DependentUpon>mascota.vb</DependentUpon>
+    <Compile Include="logica_\LogicaPersona.vb" />
+    <Compile Include="AltaMascota.Designer.vb">
+      <DependentUpon>AltaMascota.vb</DependentUpon>
     </Compile>
-    <Compile Include="mascota.vb">
+    <Compile Include="AltaMascota.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="inicio.vb">
@@ -87,10 +88,11 @@
       <DependentUpon>inicio.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="persona.Designer.vb">
-      <DependentUpon>persona.vb</DependentUpon>
+    <Compile Include="persistencia_\PersistenciaPersona.vb" />
+    <Compile Include="AltaPersona.Designer.vb">
+      <DependentUpon>AltaPersona.vb</DependentUpon>
     </Compile>
-    <Compile Include="persona.vb">
+    <Compile Include="AltaPersona.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -113,8 +115,8 @@
     <EmbeddedResource Include="inicio.resx">
       <DependentUpon>inicio.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="mascota.resx">
-      <DependentUpon>mascota.vb</DependentUpon>
+    <EmbeddedResource Include="AltaMascota.resx">
+      <DependentUpon>AltaMascota.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -122,8 +124,8 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="persona.resx">
-      <DependentUpon>persona.vb</DependentUpon>
+    <EmbeddedResource Include="AltaPersona.resx">
+      <DependentUpon>AltaPersona.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -147,5 +149,6 @@
   <ItemGroup>
     <None Include="Resources\persona.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

@@ -12,3 +12,13 @@ C:\Users\Alumno\source\repos\veterinario\veterinario\obj\Debug\veterinario.exe
 C:\Users\Alumno\source\repos\veterinario\veterinario\obj\Debug\veterinario.xml
 C:\Users\Alumno\source\repos\veterinario\veterinario\obj\Debug\veterinario.pdb
 C:\Users\Alumno\source\repos\veterinario\veterinario\obj\Debug\veterinario.persona.resources
+C:\Users\Alumno\Desktop\repoVeterinaria\Veterinaria\veterinario\obj\Debug\veterinario.vbprojAssemblyReference.cache
+C:\Users\Alumno\Desktop\repoVeterinaria\Veterinaria\veterinario\obj\Debug\veterinario.inicio.resources
+C:\Users\Alumno\Desktop\repoVeterinaria\Veterinaria\veterinario\obj\Debug\veterinario.AltaMascota.resources
+C:\Users\Alumno\Desktop\repoVeterinaria\Veterinaria\veterinario\obj\Debug\veterinario.Resources.resources
+C:\Users\Alumno\Desktop\repoVeterinaria\Veterinaria\veterinario\obj\Debug\veterinario.AltaPersona.resources
+C:\Users\Alumno\Desktop\repoVeterinaria\Veterinaria\veterinario\obj\Debug\veterinario.vbproj.GenerateResource.cache
+C:\Users\Alumno\Desktop\repoVeterinaria\Veterinaria\veterinario\obj\Debug\veterinario.vbproj.CoreCompileInputs.cache
+C:\Users\Alumno\Desktop\repoVeterinaria\Veterinaria\veterinario\obj\Debug\veterinario.exe
+C:\Users\Alumno\Desktop\repoVeterinaria\Veterinaria\veterinario\obj\Debug\veterinario.xml
+C:\Users\Alumno\Desktop\repoVeterinaria\Veterinaria\veterinario\obj\Debug\veterinario.pdb

@@ -1,11 +1,11 @@
 ﻿Public Class inicio
     Private Sub PersonaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PersonaToolStripMenuItem.Click
-        persona.ShowDialog()
+        AltaPersona.ShowDialog()
 
     End Sub
 
     Private Sub MascotaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles MascotaToolStripMenuItem.Click
-        mascota.Show()
+        AltaMascota.Show()
 
     End Sub
 End Class

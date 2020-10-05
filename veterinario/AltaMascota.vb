@@ -1,4 +1,4 @@
-﻿Public Class mascota
+﻿Public Class AltaMascota
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles mascotaText.Click
 
     End Sub

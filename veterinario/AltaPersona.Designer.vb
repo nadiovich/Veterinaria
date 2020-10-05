@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class persona
+Partial Class AltaPersona
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -33,6 +33,8 @@ Partial Class persona
         Me.direcTextBox = New System.Windows.Forms.TextBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.cancelarPButton = New System.Windows.Forms.Button()
+        Me.aceptarPButton = New System.Windows.Forms.Button()
+        Me.telefBtn = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -40,7 +42,7 @@ Partial Class persona
         '
         Me.personaText.AutoSize = True
         Me.personaText.Font = New System.Drawing.Font("Corbel", 26.25!)
-        Me.personaText.Location = New System.Drawing.Point(272, 62)
+        Me.personaText.Location = New System.Drawing.Point(202, 62)
         Me.personaText.Name = "personaText"
         Me.personaText.Size = New System.Drawing.Size(133, 42)
         Me.personaText.TabIndex = 0
@@ -50,7 +52,7 @@ Partial Class persona
         '
         Me.ciText.AutoSize = True
         Me.ciText.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!)
-        Me.ciText.Location = New System.Drawing.Point(277, 135)
+        Me.ciText.Location = New System.Drawing.Point(207, 135)
         Me.ciText.Name = "ciText"
         Me.ciText.Size = New System.Drawing.Size(29, 16)
         Me.ciText.TabIndex = 1
@@ -60,7 +62,7 @@ Partial Class persona
         '
         Me.nombrePText.AutoSize = True
         Me.nombrePText.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!)
-        Me.nombrePText.Location = New System.Drawing.Point(246, 168)
+        Me.nombrePText.Location = New System.Drawing.Point(176, 168)
         Me.nombrePText.Name = "nombrePText"
         Me.nombrePText.Size = New System.Drawing.Size(60, 16)
         Me.nombrePText.TabIndex = 2
@@ -70,7 +72,7 @@ Partial Class persona
         '
         Me.telefonoText.AutoSize = True
         Me.telefonoText.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!)
-        Me.telefonoText.Location = New System.Drawing.Point(241, 207)
+        Me.telefonoText.Location = New System.Drawing.Point(171, 207)
         Me.telefonoText.Name = "telefonoText"
         Me.telefonoText.Size = New System.Drawing.Size(65, 16)
         Me.telefonoText.TabIndex = 3
@@ -80,7 +82,7 @@ Partial Class persona
         '
         Me.direcText.AutoSize = True
         Me.direcText.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!)
-        Me.direcText.Location = New System.Drawing.Point(238, 246)
+        Me.direcText.Location = New System.Drawing.Point(168, 246)
         Me.direcText.Name = "direcText"
         Me.direcText.Size = New System.Drawing.Size(68, 16)
         Me.direcText.TabIndex = 4
@@ -88,28 +90,29 @@ Partial Class persona
         '
         'ciTextBox
         '
-        Me.ciTextBox.Location = New System.Drawing.Point(319, 131)
+        Me.ciTextBox.Location = New System.Drawing.Point(249, 131)
         Me.ciTextBox.Name = "ciTextBox"
         Me.ciTextBox.Size = New System.Drawing.Size(107, 20)
         Me.ciTextBox.TabIndex = 6
         '
         'nombreTextBox
         '
-        Me.nombreTextBox.Location = New System.Drawing.Point(319, 167)
+        Me.nombreTextBox.Location = New System.Drawing.Point(249, 167)
         Me.nombreTextBox.Name = "nombreTextBox"
         Me.nombreTextBox.Size = New System.Drawing.Size(107, 20)
         Me.nombreTextBox.TabIndex = 7
         '
         'telefTextBox
         '
-        Me.telefTextBox.Location = New System.Drawing.Point(319, 206)
+        Me.telefTextBox.Location = New System.Drawing.Point(249, 206)
         Me.telefTextBox.Name = "telefTextBox"
         Me.telefTextBox.Size = New System.Drawing.Size(107, 20)
         Me.telefTextBox.TabIndex = 8
+        Me.telefTextBox.Text = "jhadsg"
         '
         'direcTextBox
         '
-        Me.direcTextBox.Location = New System.Drawing.Point(319, 245)
+        Me.direcTextBox.Location = New System.Drawing.Point(249, 245)
         Me.direcTextBox.Name = "direcTextBox"
         Me.direcTextBox.Size = New System.Drawing.Size(107, 20)
         Me.direcTextBox.TabIndex = 9
@@ -117,7 +120,7 @@ Partial Class persona
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.veterinario.My.Resources.Resources.persona
-        Me.PictureBox1.Location = New System.Drawing.Point(513, 39)
+        Me.PictureBox1.Location = New System.Drawing.Point(392, 39)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(100, 65)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -133,11 +136,31 @@ Partial Class persona
         Me.cancelarPButton.Text = "Cancelar"
         Me.cancelarPButton.UseVisualStyleBackColor = True
         '
-        'persona
+        'aceptarPButton
+        '
+        Me.aceptarPButton.Location = New System.Drawing.Point(402, 306)
+        Me.aceptarPButton.Name = "aceptarPButton"
+        Me.aceptarPButton.Size = New System.Drawing.Size(90, 23)
+        Me.aceptarPButton.TabIndex = 11
+        Me.aceptarPButton.Text = "Aceptar"
+        Me.aceptarPButton.UseVisualStyleBackColor = True
+        '
+        'telefBtn
+        '
+        Me.telefBtn.Location = New System.Drawing.Point(362, 206)
+        Me.telefBtn.Name = "telefBtn"
+        Me.telefBtn.Size = New System.Drawing.Size(30, 23)
+        Me.telefBtn.TabIndex = 12
+        Me.telefBtn.Text = "+"
+        Me.telefBtn.UseVisualStyleBackColor = True
+        '
+        'AltaPersona
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(655, 366)
+        Me.ClientSize = New System.Drawing.Size(538, 367)
+        Me.Controls.Add(Me.telefBtn)
+        Me.Controls.Add(Me.aceptarPButton)
         Me.Controls.Add(Me.cancelarPButton)
         Me.Controls.Add(Me.direcTextBox)
         Me.Controls.Add(Me.telefTextBox)
@@ -149,7 +172,7 @@ Partial Class persona
         Me.Controls.Add(Me.nombrePText)
         Me.Controls.Add(Me.ciText)
         Me.Controls.Add(Me.personaText)
-        Me.Name = "persona"
+        Me.Name = "AltaPersona"
         Me.Text = "persona"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
@@ -168,4 +191,6 @@ Partial Class persona
     Friend WithEvents telefTextBox As TextBox
     Friend WithEvents direcTextBox As TextBox
     Friend WithEvents cancelarPButton As Button
+    Friend WithEvents aceptarPButton As Button
+    Friend WithEvents telefBtn As Button
 End Class
