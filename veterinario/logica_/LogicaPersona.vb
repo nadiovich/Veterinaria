@@ -8,5 +8,9 @@
         Return persistencia_.Buscarpersona(ci)
 
     End Function
+    Public Sub modificarPersona(personita As Persona)
+        Dim persistencia_ As New PersistenciaPersona
+        persistencia_.ModificarPersona(personita)
+    End Sub
 
 End Class
