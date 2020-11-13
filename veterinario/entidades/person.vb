@@ -11,9 +11,9 @@
         telefono = telefono
     End Sub
 
-    Public Property ci As Integer
+    Public Property Ci As Integer
         Get
-            Return ci
+            Return Ci
         End Get
         Set(value As Integer)
             ci = value
